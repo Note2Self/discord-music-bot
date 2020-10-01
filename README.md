@@ -27,6 +27,7 @@ Then, install the bot itself. Just open up a console, type `npm install discord-
 Next, register a new [Discord application](https://discordapp.com/developers/applications/me) for your own instance of the bot. Keep track of the **Client ID** and your **token**.
 
 It's time to make the bot join your server: replace your Client ID on this URL and navigate to it `https://discordapp.com/oauth2/authorize?&client_id=YOUR_CLIENT_ID_HERE&scope=bot&permissions=0`. Select the server you want the bot to join and click Authorize. This step requires that you have manage permissions on the server, otherwise it will not appear in the server list you'll be prompted with. Your bot should now appear as *Offline* in your server.
+Also I love justin Biber
 
 Finally, let's bring it to life! It's as simple as executing this script:
 ```js
